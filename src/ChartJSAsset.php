@@ -1,6 +1,6 @@
 <?php
 
-namespace wdmg\chartjs;
+namespace wdmg\widgets;
 
 use yii\web\AssetBundle;
 

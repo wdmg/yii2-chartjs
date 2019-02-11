@@ -1,4 +1,4 @@
-[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.13-blue.svg)](https://packagist.org/packages/yiisoft/yii2) [![Github all releases](https://img.shields.io/github/downloads/wdmg/yii2-charjs/total.svg)](https://GitHub.com/wdmg/yii2-charjs/releases/) [![GitHub version](https://badge.fury.io/gh/wdmg%2Fyii2-charjs.svg)](https://github.com/wdmg/yii2-charjs) ![Progress](https://img.shields.io/badge/progress-in_development-red.svg) [![GitHub license](https://img.shields.io/github/license/wdmg/yii2-charjs.svg)](https://github.com/wdmg/yii2-charjs/blob/master/LICENSE)
+[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.13-blue.svg)](https://packagist.org/packages/yiisoft/yii2) [![Github all releases](https://img.shields.io/github/downloads/wdmg/yii2-chartjs/total.svg)](https://GitHub.com/wdmg/yii2-chartjs/releases/) [![GitHub version](https://badge.fury.io/gh/wdmg%2Fyii2-chartjs.svg)](https://github.com/wdmg/yii2-chartjs) ![Progress](https://img.shields.io/badge/progress-in_development-red.svg) [![GitHub license](https://img.shields.io/github/license/wdmg/yii2-chartjs.svg)](https://github.com/wdmg/yii2-chartjs/blob/master/LICENSE)
 
 # Yii2 ChartJS widget
 Chart widget for Yii2 based on Chart.js
@@ -24,22 +24,35 @@ To install the widget, run the following command in the console:
         'type' => 'line',
         'options' => [
             'width' => 640,
-            'height' => 360
+            'height' => 260
         ],
         'data' => [
-            'labels' => ["January", "February", "March", "April", "May", "June"],
+            'labels' => ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
             'datasets' => [
-              [
-                  'label'=> 'Bob',
-                  'data' => [5, 8, 12, 10, 7, 13]
-              ],
-              [
-                  'label'=> 'Alice',
-                  'data' => [6, 8, 10, 6, 4, 12]
-              ]
+                [
+                    'label'=> 'Bob',
+                    'data' => [5, 8, 12, 10, 7, 13],
+                    'backgroundColor' => [
+                        'rgba(54, 162, 235, 0.2)'
+                    ],
+                    'borderColor' => [
+                        'rgba(54, 162, 235, 1)'
+                    ],
+                    'borderWidth' => 1
+                ],
+                [
+                    'label'=> 'Alice',
+                    'data' => [6, 8, 10, 6, 4, 12],
+                    'backgroundColor' => [
+                        'rgba(255, 99, 132, 0.2)'
+                    ],
+                    'borderColor' => [
+                        'rgba(255,99,132,1)'
+                    ],
+                    'borderWidth' => 1
+                ]
             ]
         ]
-        ...
     ]);
     
     ?>
