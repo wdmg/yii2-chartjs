@@ -1,0 +1,38 @@
+{
+  "name": "wdmg/yii2-chartjs",
+  "description": "Chart widget for Yii2 based on Chart.js",
+  "keywords": ["yii", "yii2", "extension", "chart", "chartjs", "widget", "wdmg"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "version": "1.0.0",
+  "homepage": "https://github.com/wdmg/yii2-chartjs",
+  "support": {
+    "source": "https://github.com/wdmg/yii2-chartjs",
+    "issues": "https://github.com/wdmg/yii2-chartjs/issues"
+  },
+  "authors": [
+    {
+      "name": "Alexsander Vyshnyvetskyy",
+      "email": "alex.vyshnyvetskyy@gmail.com"
+    },
+    {
+      "name": "W.D.M.Group, Ukraine",
+      "email": "wdmg.com.ua@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0.13",
+    "bower-asset/chart.js": "^2.7.3"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "wdmg\\widgets\\": "src"
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
