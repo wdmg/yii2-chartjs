@@ -72,7 +72,8 @@ class ChartJS extends Widget
         $type = $this->type;
         $data = !empty($this->data) ? Json::encode($this->data) : '{}';
         $options = !empty($this->clientOptions) ? Json::encode($this->clientOptions) : '{}';
-        $js[] = ";var chartJS_{$id} = new Chart(document.getElementById('{$id}'), {type: '{$type}', data: {$data}, options: {$options}});";
+
+        $js[] = ";var chartJS_".$id." = new Chart(document.getElementById('".$id."'), {type: '".$type."', data: ".$data.", options: ".$options."});";
 
         // Register Chart.js component initial script
         $view->registerJs(implode("\n", $js));
