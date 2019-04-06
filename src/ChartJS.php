@@ -2,6 +2,18 @@
 
 namespace wdmg\widgets;
 
+/**
+ * Yii2 ChartJS
+ *
+ * @category        Widgets
+ * @version         1.0.0
+ * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
+ * @link            https://github.com/wdmg/yii2-chartjs
+ * @copyright       Copyright (c) 2019 W.D.M.Group, Ukraine
+ * @license         https://opensource.org/licenses/MIT Massachusetts Institute of Technology (MIT) License
+ *
+ */
+
 use yii\base\Widget;
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
