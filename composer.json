@@ -4,7 +4,7 @@
   "keywords": ["yii", "yii2", "extension", "chart", "chartjs", "widget", "wdmg"],
   "type": "yii2-extension",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "homepage": "https://github.com/wdmg/yii2-chartjs",
   "support": {
     "source": "https://github.com/wdmg/yii2-chartjs",
@@ -22,7 +22,7 @@
   ],
   "require": {
     "yiisoft/yii2": "^2.0.13",
-    "bower-asset/chart.js": "^2.7.3"
+    "bower-asset/chart.js": "^2.8.0"
   },
   "minimum-stability": "dev",
   "autoload": {
