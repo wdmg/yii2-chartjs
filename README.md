@@ -5,7 +5,7 @@ Chart widget for Yii2 based on Chart.js
 
 # Requirements 
 * PHP 5.6 or higher
-* Yii2 v.2.0.13 and newest
+* Yii2 v.2.0.19 and newest
 * [Chart.js](https://github.com/chartjs/Chart.js) v.2.7.3 and newest.
 
 # Installation
@@ -62,4 +62,4 @@ To install the widget, run the following command in the console:
 See more on [Creating a Chart](https://www.chartjs.org/docs/latest/getting-started/usage.html)
 
 # Status and version
-* v.1.0.0 - Widget in progress development.
+* v.1.0.3 - Update Yii2 version
