@@ -62,5 +62,6 @@ To install the widget, run the following command in the console:
 See more on [Creating a Chart](https://www.chartjs.org/docs/latest/getting-started/usage.html)
 
 # Status and version
+* v.1.0.5 - Fixed deprecated class declaration
 * v.1.0.4 - Update Yii2 version
 * v.1.0.3 - Update Yii2 version

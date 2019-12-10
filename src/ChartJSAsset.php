@@ -18,7 +18,7 @@ class ChartJSAsset extends AssetBundle
     {
         parent::init();
         $this->js = YII_DEBUG ? ['dist/Chart.js'] : ['dist/Chart.min.js'];
-        $this->depends = [\yii\web\JqueryAsset::className()];
+        $this->depends = [\yii\web\JqueryAsset::class];
     }
 
 }
