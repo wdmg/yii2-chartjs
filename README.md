@@ -1,11 +1,15 @@
-[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.13-blue.svg)](https://packagist.org/packages/yiisoft/yii2) [![Github all releases](https://img.shields.io/github/downloads/wdmg/yii2-chartjs/total.svg)](https://GitHub.com/wdmg/yii2-chartjs/releases/) [![GitHub version](https://badge.fury.io/gh/wdmg%2Fyii2-chartjs.svg)](https://github.com/wdmg/yii2-chartjs) ![Progress](https://img.shields.io/badge/progress-in_development-red.svg) [![GitHub license](https://img.shields.io/github/license/wdmg/yii2-chartjs.svg)](https://github.com/wdmg/yii2-chartjs/blob/master/LICENSE)
+[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.33-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
+[![Github all releases](https://img.shields.io/github/downloads/wdmg/yii2-chartjs/total.svg)](https://GitHub.com/wdmg/yii2-chartjs/releases/)
+[![GitHub version](https://badge.fury.io/gh/wdmg%2Fyii2-chartjs.svg)](https://github.com/wdmg/yii2-chartjs)
+![Progress](https://img.shields.io/badge/progress-in_development-red.svg)
+[![GitHub license](https://img.shields.io/github/license/wdmg/yii2-chartjs.svg)](https://github.com/wdmg/yii2-chartjs/blob/master/LICENSE)
 
 # Yii2 ChartJS widget
 Chart widget for Yii2 based on Chart.js
 
 # Requirements 
 * PHP 5.6 or higher
-* Yii2 v.2.0.20 and newest
+* Yii2 v.2.0.33 and newest
 * [Chart.js](https://github.com/chartjs/Chart.js) v.2.7.3 and newest.
 
 # Installation
@@ -62,6 +66,7 @@ To install the widget, run the following command in the console:
 See more on [Creating a Chart](https://www.chartjs.org/docs/latest/getting-started/usage.html)
 
 # Status and version
+* v.1.0.6 - Up to date dependencies
 * v.1.0.5 - Fixed deprecated class declaration
 * v.1.0.4 - Update Yii2 version
 * v.1.0.3 - Update Yii2 version
